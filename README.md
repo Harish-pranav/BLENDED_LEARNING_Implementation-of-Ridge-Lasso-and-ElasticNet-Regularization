@@ -79,6 +79,8 @@ for name, model in models.items():
     results[name] = {'MSE': mse, 'R2 Score': r2}
 
 # Print results
+print('Name: Harish Pranav')
+print('Reg. No: 212225040117')
 print('=' * 50)
 for model_name, metrics in results.items():
     print(f"{model_name} - Mean Squared Error: {metrics['MSE']:.2f}, R² Score: {metrics['R2 Score']:.2f}")
